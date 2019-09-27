@@ -26,6 +26,14 @@ jcmd <pid> Thread.print
 jcmd <pid> VM.native_memory
 jstat -gcutil <pid>
 
+
+
+kubectl -it exec -n <namespace>   -<podname>    -- /bin/bash 
+
+jhsdb jmap --heap --pid <PID>
+
+jstat -gcutil <PID>
+
 #### Read More
 
 - JVM Native Memory Tracking 
@@ -35,11 +43,8 @@ https://stackoverflow.com/questions/16697135/monitor-non-heap-memory-usage-of-a-
 - Httpclient-memory-leak
 https://stackoverflow.com/questions/27732546/httpclienthandler-httpclient-memory-leak
 
-
-similar problem 
-https://github.com/kubernetes/kubernetes/issues/70179 
-
-/sys/fs/cgroup/memory.kmem.limit_in_bytes
+- similar problem 
+  https://github.com/kubernetes/kubernetes/issues/70179  /sys/fs/cgroup/memory.kmem.limit_in_bytes
 
 
 
