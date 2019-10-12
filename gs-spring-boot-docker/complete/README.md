@@ -16,17 +16,13 @@ https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr014
 
 #### The Commands could be useful for JVM Memory /GC  ####
 
-jcmd <pid> Thread.print
-jcmd <pid> VM.native_memory
-jstat -gcutil <pid>
+- jcmd <pid> Thread.print
+- jcmd <pid> VM.native_memory
+- jstat -gcutil <pid>
 
-
-
-kubectl -it exec -n <namespace>   -<podname>    -- /bin/bash 
-
-jhsdb jmap --heap --pid <PID>
-
-jstat -gcutil <PID>
+- kubectl -it exec -n <namespace>   -<podname>    -- /bin/bash 
+- jhsdb jmap --heap --pid <PID>
+- jstat -gcutil <PID>
 
 #### Read More
 
