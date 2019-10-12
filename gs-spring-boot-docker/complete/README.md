@@ -26,16 +26,11 @@ https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr014
 
 #### Read More
 
-- How to choose Docker image for openjdk
-  https://hub.docker.com/_/openjdk
-- JVM Native Memory Tracking 
-  https://www.baeldung.com/native-memory-tracking-in-jvm
-- Simliar Problem reported by others 
-  https://stackoverflow.com/questions/16697135/monitor-non-heap-memory-usage-of-a-jvm
-- Httpclient-memory-leak
-  https://stackoverflow.com/questions/27732546/httpclienthandler-httpclient-memory-leak
-- Similar problem reported by others
-  https://github.com/kubernetes/kubernetes/issues/70179
+- [How to choose Docker image for openjdk](https://hub.docker.com/_/openjdk)
+- [JVM Native Memory Tracking](https://www.baeldung.com/native-memory-tracking-in-jvm)
+- [Simliar Problem reported by others](https://stackoverflow.com/questions/16697135/monitor-non-heap-memory-usage-of-a-jvm)
+- [Httpclient-memory-leak](https://stackoverflow.com/questions/27732546/httpclienthandler-httpclient-memory-leak)
+- [Similar problem reported by others](https://github.com/kubernetes/kubernetes/issues/70179)
 
 
 
