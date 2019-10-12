@@ -1,10 +1,4 @@
-Use docker ps to get the name of the existing container.
-Use the command docker exec -it <container name> /bin/bash to get a bash shell in the container.
 
-
-#### How to choose DOCKER IMAGE for openjdk11
-
-- https://hub.docker.com/_/openjdk
 
 #### The OpenJDK Docker Image with  all needed memory tools 
 I choose openjdk:11 
@@ -36,15 +30,17 @@ jstat -gcutil <PID>
 
 #### Read More
 
+- How to choose Docker image for openjdk
+  https://hub.docker.com/_/openjdk
 - JVM Native Memory Tracking 
-https://www.baeldung.com/native-memory-tracking-in-jvm
+  https://www.baeldung.com/native-memory-tracking-in-jvm
 - Simliar Problem reported by others 
-https://stackoverflow.com/questions/16697135/monitor-non-heap-memory-usage-of-a-jvm
+  https://stackoverflow.com/questions/16697135/monitor-non-heap-memory-usage-of-a-jvm
 - Httpclient-memory-leak
-https://stackoverflow.com/questions/27732546/httpclienthandler-httpclient-memory-leak
+  https://stackoverflow.com/questions/27732546/httpclienthandler-httpclient-memory-leak
+- Similar problem reported by others
+  https://github.com/kubernetes/kubernetes/issues/70179
 
-- similar problem 
-  https://github.com/kubernetes/kubernetes/issues/70179  /sys/fs/cgroup/memory.kmem.limit_in_bytes
 
 
 
