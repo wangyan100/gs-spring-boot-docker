@@ -36,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="220">
+              <first_editor relative-caret-position="272">
                 <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
               </first_editor>
               <second_editor />
@@ -126,16 +126,15 @@
       <workItem from="1569052213353" duration="5940000" />
       <workItem from="1569096845486" duration="1389000" />
       <workItem from="1569267666279" duration="492000" />
-      <workItem from="1570817149187" duration="1080000" />
+      <workItem from="1570817149187" duration="1440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8901000" />
+    <option name="totallyTimeSpent" value="9261000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="814" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17672414" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -191,7 +190,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="220">
+          <first_editor relative-caret-position="272">
             <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           </first_editor>
           <second_editor />
